@@ -47,3 +47,22 @@ YEAR : 2020
 | Infra_Count | Numeric (Integer) | Total number of available infrastructure facilities in the village (derived count). |
 | Infra_Level | Categorical | Categorical classification of infrastructure level (e.g., Low, Medium, High) |
 
+## 5.Tools & Technologies:
+- 	**Programming Language:** Python
+###  	Libraries:
+- 	**Pandas** – data manipulation and preprocessing
+- 	**NumPy** – numerical computations
+- 	**SimpleImputer** – Imputation for missing value
+-  **Matplotlib & Seaborn** – data visualization                    
+ ###  Environment: Google Colab
+ ## 6. Data Pre-processing (EDA):
+### Task Performed:
+ -  **Data Cleaning & Transformation:** Removed duplicates, handled missing values, standardized formats, standardized data types, and corrected inconsistent entries using Pandas.
+ -  **Data Validation:** Verified data accuracy and consistency with checks on unique IDs, non-null constraints, and logical value ranges.
+ -  **Data Updates & Feature Engineering:** Created derived columns such as HH_Farm_percent, HH_Non_Farm_percent, Infra_Count, and Infra_Level to enhance analysis.
+ -  **Aggregations & Calculations:** Performed groupby and window-like calculations to summarize infrastructure availability, livelihood patterns, and regional disparities.
+ -  **Visualization Preperation:** Prepared cleaned and structured data for visualizations using Matplotlib and Seaborn, ensuring consistent formats for plots and charts.
+## Analysis & Visualization:
+![Alt Text]()
+
+
