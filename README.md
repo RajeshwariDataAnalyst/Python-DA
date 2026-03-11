@@ -4,8 +4,6 @@ The primary objective of this project is to analyze the relationship between hou
 
 The analysis aims to identify structural patterns, regional disparities, and infrastructure-level differences using Python-based data analysis techniques.
  ## 2. Data Sources:
-**Source Description and Timeline:**
-
 SOURCE: India Data Portal                         
 LOCATION : India                                       
 YEAR : 2020  
