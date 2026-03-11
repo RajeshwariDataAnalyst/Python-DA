@@ -55,7 +55,7 @@ YEAR : 2020
 - 	**SimpleImputer** – Imputation for missing value
 -  **Matplotlib & Seaborn** – data visualization                    
  ###  Environment: Google Colab
- ## 6. Data Pre-processing (EDA):
+ ## 6. Data processing:
 ### Task Performed:
  -  **Data Cleaning & Transformation:** Removed duplicates, handled missing values, standardized formats, standardized data types, and corrected inconsistent entries using Pandas.
  -  **Data Validation:** Verified data accuracy and consistency with checks on unique IDs, non-null constraints, and logical value ranges.
