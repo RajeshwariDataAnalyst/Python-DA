@@ -21,29 +21,29 @@ YEAR : 2020
 | Attribute Name | Data Type | Description |
 |---------------|------------|-------------|
 | ID | Numeric (Integer) | Unique identifier for each record | 
-| Year | Date(Year) | Year of the survey/data collection (2020). |
-| State_Code | Numeric (Integer) | Numeric code representing the state. |
-| Transport_Type | Categorical | Type of transport (Bus, Train, Tram, Metro) |
-| Route_No | Categorical | Route number assigned to the trip |
-| Origin_Station | Categorical | Starting station of the trip |  
-| Destination_Station | Categorical | Ending station of the trip |
-| Scheduled_Departure | Time | Planned departure time |
-| Actual_Departure | Time | Actual departure time recorded |
-| Departure_Delay_Min | Numeric (Integer) | Delay in minutes for departure |
-| Scheduled_Arrival | Time | Planned arrival time |
-| Actual_Arrival | Time | Actual arrival time recorded |
-| Arrival_Delay_Min | Numeric (Integer) | Delay in minutes for arrival |
-| Weather_Condition | Categorical | Weather during the trip (Rain, Fog, Storm, Clear, etc.) |
-| Temperature_C | Numeric (Float) | Temperature in Celsius |
-| Humidity_% | Numeric (Integer) | Humidity percentage
-| Wind_Speed_Kmh | Numeric (Integer) | Wind speed in km/h |
-| Precipitation_mm | Numeric (Float) | Rainfall or precipitation level |
-| Event_Type | Categorical | Type of public event (Concert, Festival, Sports, Protest, None) |
-| Event_Attendance_Est | Numeric (Integer) | Estimated number of attendance |
-| Traffic_Congestion_Index | Numeric (Integer) | Congestion level on the route |
-| Holiday | Categorical | Indicates if the day is a holiday or not |
-| Peak_Hour | Categorical | Whether the trip occurred during peak or off-peak hours |
-| Weekday | Categorical | Name of the day (Monday–Sunday) | 
-| Day_Type | Categorical | Indicates whether it is a weekday or weekend |
-| Season | Categorical | Season during the trip (Winter, Summer, etc.) |
-| Delayed | Categorical (Yes/No) | Final label indicating if the trip was delayed |
+| Year | Date(Year) | Year of the survey/data collection (2020) |
+| State_Code | Numeric (Integer) | Numeric code representing the state |
+| State_Name | Categorical | Name of the State |
+| District_Code | Numeric (Integer) | Numeric code representing the district |
+| District_Name | Categorical | Name of the District |  
+| Block_Code | Numeric (Integer) | Numeric code representing the block |
+| Block_Name | Categorical | Name of the Block |
+| GP_Code | Numeric (Integer)  | Numeric code for Gram Panchayat (local village council) |
+| GP_Name | Categorical | Name of the Gram Panchayat |
+| Village_Code | Numeric (Integer) | Unique numeric code for the village |
+| Village_Name | Categorical | Name of the Village |
+| Tot_HH | Numeric (Integer) | Total number of households in the village |
+| HH_Farm_Activities | Numeric (Integer) | Number of households engaged in farm-based activities |
+| HH_Non_Farm_Activities | Numeric (Integer) | Number of households engaged in non-farm activities |
+| Avail_Govt_Seed_Centres | Categorical | Availability of government seed centers (Yes/No) |
+| Avail_Watershed_Dev_Proj | Categorical | Availability of watershed development projects (Yes/No) |
+| Avail_Community_Rain_Water_Harvesting_System | Categorical | Availability of community rainwater harvesting systems (Yes/No) |
+| Avail_Farmers_Collective | Categorical | Availability of farmers’ collectives (Yes/No) |
+| Avail_Warehouse_Food_Grain_Storage | Categorical | Availability of food grain storage warehouses (Yes/No) |
+| Avail_Primary_Processing_Facilities |Categorical | Availability of primary agricultural processing facilities (Yes/No) |
+| Avail_Custom_Hiring_Centre | Categorical | Availability of custom hiring centers for agricultural machinery (Yes/No) |
+| HH_Farm_percent | float | Percentage of households engaged in farm activities |
+| HH_Non_Farm_percent | float | Percentage of households engaged in non-farm activities | 
+| Infra_Count | Numeric (Integer) | Total number of available infrastructure facilities in the village (derived count). |
+| Infra_Level | Categorical | Categorical classification of infrastructure level (e.g., Low, Medium, High) |
+
