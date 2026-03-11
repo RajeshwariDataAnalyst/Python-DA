@@ -62,7 +62,18 @@ YEAR : 2020
  -  **Data Updates & Feature Engineering:** Created derived columns such as HH_Farm_percent, HH_Non_Farm_percent, Infra_Count, and Infra_Level to enhance analysis.
  -  **Aggregations & Calculations:** Performed groupby and window-like calculations to summarize infrastructure availability, livelihood patterns, and regional disparities.
  -  **Visualization Preperation:** Prepared cleaned and structured data for visualizations using Matplotlib and Seaborn, ensuring consistent formats for plots and charts.
-## Analysis & Visualization:
-![Alt Text]()
+## 7. Analysis & Visualization:
+![Alt Text](https://github.com/RajeshwariDataAnalyst/Python-DA/blob/main/Pair%20plot.png)
+## 8. Insights:
+  1.	Larger villages generally have more agricultural infrastructure compared to smaller villages.
+  2.	Villages with better infrastructure availability show more diversified livelihood patterns.
+  3.	Water infrastructure helps sustain farming and reduces the need for non-farm livelihood shifts.
+  4.	Infrastructure distribution varies significantly across states, indicating regional imbalance.
+  5.	Institutional support (such as farmers’ collectives) improves farm engagement, especially in larger villages.
+  6.	Villages with higher infrastructure counts tend to have higher farm participation.
+  7.	Limited infrastructure often leads households to rely more on non-farm activities.
+## 9. Conclusion:
+This project demonstrates the effective use of Python for large-scale data analysis and visualization. Through systematic exploratory data analysis, meaningful insights were obtained on the relationship between agricultural infrastructure and household livelihood patterns across villages.
 
+ The analysis highlights the ability to apply analytical thinking, create informative visualizations, and translate data findings into practical insights that can support planning and decision-making.
 
